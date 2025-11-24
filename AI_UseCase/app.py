@@ -53,7 +53,13 @@ If relevant, use the following retrieved context from the knowledge base:
                 formatted_messages.append(AIMessage(content=msg["content"]))
 
         # 3. LLM Response
-        response = chat_model.invoke(formatted_messages)
+                # 3. LLM Response
+        llm = get_chatgroq_model()
+        if llm is None:
+            return "⚠️ Cannot generate response: Missing API key."
+
+        # FIXED: Using llm instead of chat_model
+        response = llm.invoke(formatted_messages)
         return response.content
 
     except Exception as e:
