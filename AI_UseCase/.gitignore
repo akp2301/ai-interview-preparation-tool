@@ -1,16 +1,18 @@
-.env
-data/faiss_index
-__pycache__/
-*.pyc
-# macOS files
+# macOS
 .DS_Store
 
-# python cache
+# Python
 __pycache__/
 *.pyc
 
-# virtual environment
+# Environment
 venv/
+.env
 
-# ignore init at root if not needed
-/__init__.py
+# Streamlit
+.streamlit/
+
+# Local config
+config.yaml
+
+__init__.py 
