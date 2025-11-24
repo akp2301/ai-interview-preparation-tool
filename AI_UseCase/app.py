@@ -2,7 +2,9 @@
 import streamlit as st
 import os
 import sys
-from dotenv import load_dotenv
+
+# MUST be the first Streamlit command
+st.set_page_config(page_title="LangChain ChatBot", page_icon="🤖", layout="wide")
 
 # allow running from repo root
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), './')))
@@ -12,7 +14,6 @@ from utils.rag import retrieve_context
 from langchain_core.messages import SystemMessage, HumanMessage, AIMessage
 from utils.web_search import tavily_search
 
-load_dotenv()
 
 def get_chat_response(chat_model, messages, system_prompt):
     """Get response from the chat model with RAG + Web Search support."""
@@ -53,7 +54,6 @@ If relevant, use the following retrieved context from the knowledge base:
                 formatted_messages.append(AIMessage(content=msg["content"]))
 
         # 3. LLM Response
-                # 3. LLM Response
         llm = get_chatgroq_model()
         if llm is None:
             return "⚠️ Cannot generate response: Missing API key."
