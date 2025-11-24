@@ -1,8 +1,11 @@
 streamlit==1.39.0
-langchain-core==0.2.36
-langchain-openai==0.1.23
-langchain-groq==0.1.4
-langchain-google-genai==1.0.3
-langchain-community==0.2.10
+
+# All compatible with langchain-core 0.3
+langchain-core==0.3.8
+langchain-openai==0.2.2
+langchain-groq==0.2.0
+langchain-google-genai==2.0.6
+langchain-community==0.3.2
+
 python-dotenv
 requests
