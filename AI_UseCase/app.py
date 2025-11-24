@@ -66,8 +66,92 @@ If relevant, use the following retrieved context from the knowledge base:
         return f"Error getting response: {str(e)}"
 
 def instructions_page():
-    st.title("The Chatbot Blueprint")
-    st.markdown("...")  # keep your long instructions here
+    st.title("📘 How to Use the AI Interview Coach")
+
+    st.markdown("""
+Welcome to the **AI Interview Preparation Tool**!  
+This chatbot is designed to help you practice interviews, learn concepts fast, and get high-quality answers in two modes: **Concise** and **Detailed**.  
+
+---
+
+## 🚀 Features
+### **1. Smart Interview Chatbot**
+Ask anything related to:
+- Python, SQL, DevOps  
+- MLOps, Cloud (Azure, AWS, GCP)  
+- DSA fundamentals  
+- Behavioral questions  
+- System design  
+- Role-specific interviews  
+
+Select your preferred response mode:
+- **Concise** → crisp, short interview-ready answers  
+- **Detailed** → long explanations + examples
+
+---
+
+## 🔍 2. Built-in RAG (Knowledge Retrieval)
+The system automatically searches your internal knowledge base and uses it to generate better answers.
+
+You don’t need to do anything — the chatbot detects and retrieves relevant context in the background.
+
+---
+
+## 🌐 3. Built-in Web Search  
+You can perform a live web search by typing:
+
+
+Examples:
+- `search: latest features in Azure DevOps`
+- `search: What is Groq Llama3 model?`
+- `search: Kubernetes vs Docker 2025`
+
+The bot will fetch and summarize results for you.
+
+---
+
+## 💬 4. Chat History
+Your conversation history is preserved in the session.
+
+Click **🗑 Clear Chat History** anytime from the sidebar.
+
+---
+
+## 🔧 5. Requirements
+Before using the chatbot fully:
+- Add your **Groq API Key** in `.env` or Streamlit Secrets.
+- Ensure your folder structure remains unchanged.
+- Keep your internet connection on for web search.
+
+---
+
+## 🧠 Tips for Best Results
+- Ask *1 clear question at a time* for the most accurate answer.
+- When preparing for interviews, try questions like:
+  - *“Explain CI/CD like I’m a beginner.”*
+  - *“Give me STAR-based answers for: Tell me about yourself.”*
+  - *“Mock interview me for a DevOps role.”*
+  - *“Explain Kubernetes architecture with diagram-style text.”*
+
+---
+
+## 🎯 Goal of this Tool
+This project showcases:
+- Generative AI integration  
+- LangChain message formatting  
+- RAG workflow  
+- External Web Search  
+- Streamlit UI design  
+- Multi-provider model support (Groq, OpenAI, HuggingFace)
+
+Perfect for interview prep and as a portfolio project.
+
+---
+
+If you have any issues, return to the **Chat** page and ask the bot anything!
+
+
+""")
 
 def chat_page():
     st.title("🤖 AI ChatBot")

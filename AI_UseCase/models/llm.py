@@ -10,6 +10,8 @@ def get_chatgroq_model():
         return None
 
     return ChatGroq(
-        model="mixtral-8x7b-32768",
+        model="llama-3.1-8b-instant",
         api_key=GROQ_API_KEY,
+        temperature=0.2,
+        max_tokens=1024
     )
