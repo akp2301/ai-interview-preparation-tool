@@ -1,10 +1,13 @@
 # app.py
 import streamlit as st
+st.set_page_config(
+    page_title="LangChain Multi-Provider ChatBot",
+    page_icon="🤖",
+    layout="wide"
+)
+
 import os
 import sys
-
-# MUST be the first Streamlit command
-st.set_page_config(page_title="LangChain ChatBot", page_icon="🤖", layout="wide")
 
 # allow running from repo root
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), './')))
@@ -54,12 +57,12 @@ If relevant, use the following retrieved context from the knowledge base:
                 formatted_messages.append(AIMessage(content=msg["content"]))
 
         # 3. LLM Response
-        llm = get_chatgroq_model()
-        if llm is None:
-            return "⚠️ Cannot generate response: Missing API key."
+        chat_model = get_chatgroq_model()
+        if chat_model is None:
+            st.error("❌ No GROQ API key found. Please add it in secrets.toml")
 
         # FIXED: Using llm instead of chat_model
-        response = llm.invoke(formatted_messages)
+        response = chat_model.invoke(formatted_messages)
         return response.content
 
     except Exception as e:
