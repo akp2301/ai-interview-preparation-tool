@@ -1,0 +1,82 @@
+INTERVIEW PREPARATION GUIDE
+
+1. TELL ME ABOUT YOURSELF (STRUCTURE)
+- Start with a short professional summary (1–2 lines).
+- Mention 2–3 key achievements that show your strengths.
+- Connect your past experience to the job you’re applying for.
+- End with what you want next in your career.
+- Keep it concise (45–60 seconds).
+
+2. STAR FORMAT FOR ANSWERING QUESTIONS
+S – Situation: Provide context.
+T – Task: Describe the responsibility you had.
+A – Action: Explain what actions you took.
+R – Result: Share the measurable outcome.
+
+3. COMMON BEHAVIORAL INTERVIEW QUESTIONS
+- Tell me about a time you handled a difficult situation.
+- Describe a time you worked under pressure.
+- Tell me about a conflict with a team member and how you resolved it.
+- Describe a situation where you led a team.
+- Give an example of a time you made a mistake and how you corrected it.
+
+4. BEHAVIORAL ANSWER TIPS
+- Avoid vague answers.
+- Use measurable outcomes when possible.
+- Always end with what you learned.
+
+5. TECHNICAL INTERVIEW PREPARATION — PYTHON
+- Understand lists, dictionaries, tuples.
+- Know OOP principles: classes, inheritance, polymorphism.
+- Understand error handling and decorators.
+- Be familiar with list comprehensions and generator expressions.
+
+6. SQL INTERVIEW PREPARATION
+- SELECT, INSERT, UPDATE basics.
+- INNER JOIN, LEFT JOIN, RIGHT JOIN.
+- GROUP BY and HAVING clauses.
+- Window functions: ROW_NUMBER, RANK, DENSE_RANK.
+- Indexing and query optimization basics.
+
+7. DEVOPS & MLOPS (BASIC EXPECTATIONS)
+- CI/CD pipeline stages.
+- Docker fundamentals: Dockerfile, images, containers.
+- Kubernetes basics: pods, deployments, services.
+- MLOps concepts: model versioning, model registry, deployment strategies.
+
+8. HR INTERVIEW QUESTIONS AND TIPS
+Why should we hire you?
+- Match your skills to job requirements.
+- Mention past impact and future potential.
+
+What are your strengths?
+- Choose strengths relevant to the role.
+- Provide real workplace examples.
+
+What are your weaknesses?
+- Choose a real weakness.
+- Show steps you're taking to improve.
+
+Why do you want this job?
+- Mention company culture, role alignment, mission.
+- Connect your goals with the job's responsibilities.
+
+9. SALARY NEGOTIATION TIPS
+- Always research market compensation.
+- Give a salary range, not an exact figure.
+- Focus on value you bring, not on numbers alone.
+
+10. INTERVIEW MISTAKES TO AVOID
+- Giving long, unstructured answers.
+- Speaking negatively about past employers.
+- Not preparing questions for the interviewer.
+- Interrupting the interviewer.
+- Not backing your answers with examples.
+
+11. QUESTIONS TO ASK INTERVIEWER
+- What does success look like in this role?
+- How is performance measured?
+- What are the next steps in the hiring process?
+- How would you describe the team culture?
+
+END OF DOCUMENT

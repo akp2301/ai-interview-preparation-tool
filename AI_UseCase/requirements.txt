@@ -1,0 +1,22 @@
+streamlit==1.39.0
+langchain-core==0.3.17
+langchain-openai==0.2.3
+langchain-groq==0.1.4
+langchain-google-genai==2.0.7
+
+# FAISS + HF embeddings
+langchain-community==0.0.20
+langchain-embeddings==0.1.0
+langchain-text-splitters==0.1.7
+langchain_community==0.3.0
+
+sentence-transformers==2.2.2
+transformers==4.34.0
+torch==2.2.2        # pick CPU or CUDA variant depending on machine
+faiss-cpu==1.7.4
+python-dotenv==1.0.0
+
+requests
+python-dotenv
+serpapi
+beautifulsoup4
