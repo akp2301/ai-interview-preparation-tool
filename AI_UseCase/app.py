@@ -188,7 +188,6 @@ def chat_page():
         st.info("🔧 No valid Groq API key found. Please add it inside config/config.py or .env.")
 
 def main():
-    st.set_page_config(page_title="LangChain Multi-Provider ChatBot", page_icon="🤖", layout="wide")
     with st.sidebar:
         page = st.radio("Go to:", ["Chat", "Instructions"], index=0)
         if page == "Chat":
