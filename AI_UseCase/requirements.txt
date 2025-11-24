@@ -7,13 +7,5 @@ langchain-google-genai==1.0.3
 langchain-community==0.2.10
 python-dotenv
 requests
-=======
-streamlit==1.39.0
-langchain-core==0.2.36
-langchain-openai==0.1.23
-langchain-groq==0.1.4
-langchain-google-genai==1.0.3
-langchain-community==0.2.10
-python-dotenv
-requests
+
 >>>>>>> 641f8ed300319c2b890431dfdd48620b8289f32d
