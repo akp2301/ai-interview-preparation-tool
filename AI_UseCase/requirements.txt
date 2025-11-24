@@ -1,8 +1,6 @@
 streamlit==1.39.0
 
-# All compatible with langchain-core 0.3
-langchain-core==0.3.8
-langchain-openai==0.2.2
+langchain-core==0.3.9
 langchain-groq==0.2.0
 langchain-google-genai==2.0.6
 langchain-community==0.3.2
