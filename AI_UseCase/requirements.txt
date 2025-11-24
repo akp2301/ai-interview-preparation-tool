@@ -5,5 +5,7 @@ langchain-groq==0.2.0
 langchain-google-genai==2.0.6
 langchain-community==0.3.2
 
+sentence-transformers==2.7.0
+
 python-dotenv
 requests
